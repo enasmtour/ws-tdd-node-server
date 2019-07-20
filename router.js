@@ -36,6 +36,7 @@ const router = (request, response) => {
       response.end("Forbidden");
     }
   }
+  }
 };
 
 module.exports = router;
